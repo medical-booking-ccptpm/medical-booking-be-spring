@@ -1,6 +1,6 @@
-package com.professionalpractice.medicalbooking.dtos;
+package com.professionalpractice.medicalbookingbespring.dtos;
 
-import com.professionalpractice.medicalbooking.dtos.common.DateAuditingDto;
+import com.professionalpractice.medicalbookingbespring.dtos.common.DateAuditingDto;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

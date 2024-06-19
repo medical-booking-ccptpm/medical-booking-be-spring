@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbooking.entities;
+package com.professionalpractice.medicalbookingbespring.entities;
 
 
 import jakarta.persistence.*;

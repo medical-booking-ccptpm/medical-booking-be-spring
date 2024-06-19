@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbooking.utils;
+package com.professionalpractice.medicalbookingbespring.utils;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

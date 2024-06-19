@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbooking.repositories;
+package com.professionalpractice.medicalbookingbespring.repositories;
 
 import java.util.Optional;
 
@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.professionalpractice.medicalbooking.entities.User;
+import com.professionalpractice.medicalbookingbespring.entities.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {

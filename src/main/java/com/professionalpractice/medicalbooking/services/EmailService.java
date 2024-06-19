@@ -1,6 +1,6 @@
-package com.professionalpractice.medicalbooking.services;
+package com.professionalpractice.medicalbookingbespring.services;
 
-import com.professionalpractice.medicalbooking.dtos.HealthFormDTO;
+import com.professionalpractice.medicalbookingbespring.dtos.HealthFormDTO;
 
 public interface EmailService {
     void sendMessage(String to, String subject, String content);

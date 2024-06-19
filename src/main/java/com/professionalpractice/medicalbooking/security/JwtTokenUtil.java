@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbooking.security;
+package com.professionalpractice.medicalbookingbespring.security;
 
 import java.security.Key;
 import java.security.SecureRandom;
@@ -11,8 +11,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 
-import com.professionalpractice.medicalbooking.entities.User;
-import com.professionalpractice.medicalbooking.exceptions.InternalServerException;
+import com.professionalpractice.medicalbookingbespring.entities.User;
+import com.professionalpractice.medicalbookingbespring.exceptions.InternalServerException;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

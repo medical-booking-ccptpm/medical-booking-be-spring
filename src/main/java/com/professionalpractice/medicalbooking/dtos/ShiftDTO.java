@@ -1,6 +1,6 @@
-package com.professionalpractice.medicalbooking.dtos;
+package com.professionalpractice.medicalbookingbespring.dtos;
 
-import com.professionalpractice.medicalbooking.entities.Doctor;
+import com.professionalpractice.medicalbookingbespring.entities.Doctor;
 import jakarta.persistence.Column;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

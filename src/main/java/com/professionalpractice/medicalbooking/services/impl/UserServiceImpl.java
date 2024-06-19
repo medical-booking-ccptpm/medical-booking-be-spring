@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbooking.services.impl;
+package com.professionalpractice.medicalbookingbespring.services.impl;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -12,16 +12,16 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.professionalpractice.medicalbooking.dtos.UserDto;
-import com.professionalpractice.medicalbooking.dtos.request.UserRequest;
-import com.professionalpractice.medicalbooking.entities.Role;
-import com.professionalpractice.medicalbooking.entities.User;
-import com.professionalpractice.medicalbooking.exceptions.BadRequestException;
-import com.professionalpractice.medicalbooking.exceptions.NotFoundException;
-import com.professionalpractice.medicalbooking.repositories.UserRepository;
-import com.professionalpractice.medicalbooking.services.UserService;
-import com.professionalpractice.medicalbooking.utils.GenderName;
-import com.professionalpractice.medicalbooking.utils.RoleName;
+import com.professionalpractice.medicalbookingbespring.dtos.UserDto;
+import com.professionalpractice.medicalbookingbespring.dtos.request.UserRequest;
+import com.professionalpractice.medicalbookingbespring.entities.Role;
+import com.professionalpractice.medicalbookingbespring.entities.User;
+import com.professionalpractice.medicalbookingbespring.exceptions.BadRequestException;
+import com.professionalpractice.medicalbookingbespring.exceptions.NotFoundException;
+import com.professionalpractice.medicalbookingbespring.repositories.UserRepository;
+import com.professionalpractice.medicalbookingbespring.services.UserService;
+import com.professionalpractice.medicalbookingbespring.utils.GenderName;
+import com.professionalpractice.medicalbookingbespring.utils.RoleName;
 
 import lombok.RequiredArgsConstructor;
 

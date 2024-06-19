@@ -1,11 +1,11 @@
-package com.professionalpractice.medicalbooking.config;
+package com.professionalpractice.medicalbookingbespring.config;
 
 import org.apache.catalina.User;
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.professionalpractice.medicalbooking.dtos.UserDto;
+import com.professionalpractice.medicalbookingbespring.dtos.UserDto;
 
 @Configuration
 public class ModelMapperConfig {

@@ -1,13 +1,12 @@
-package com.professionalpractice.medicalbooking.exceptions;
+package com.professionalpractice.medicalbookingbespring.exceptions;
 
-import com.professionalpractice.medicalbooking.utils.CustomResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import com.professionalpractice.medicalbooking.utils.CustomResponse;
-import com.professionalpractice.medicalbooking.utils.RestData;
+import com.professionalpractice.medicalbookingbespring.utils.CustomResponse;
+import com.professionalpractice.medicalbookingbespring.utils.RestData;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

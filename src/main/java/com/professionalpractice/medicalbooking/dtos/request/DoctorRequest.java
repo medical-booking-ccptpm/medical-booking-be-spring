@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbooking.dtos.request;
+package com.professionalpractice.medicalbookingbespring.dtos.request;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

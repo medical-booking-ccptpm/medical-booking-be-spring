@@ -1,9 +1,9 @@
-package com.professionalpractice.medicalbooking.security;
+package com.professionalpractice.medicalbookingbespring.security;
 
 
-import com.professionalpractice.medicalbooking.entities.User;
-import com.professionalpractice.medicalbooking.exceptions.NotFoundException;
-import com.professionalpractice.medicalbooking.repositories.UserRepository;
+import com.professionalpractice.medicalbookingbespring.entities.User;
+import com.professionalpractice.medicalbookingbespring.exceptions.NotFoundException;
+import com.professionalpractice.medicalbookingbespring.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

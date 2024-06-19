@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbooking.services;
+package com.professionalpractice.medicalbookingbespring.services;
 
 import org.springframework.web.multipart.MultipartFile;
 

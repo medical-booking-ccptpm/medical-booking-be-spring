@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbooking.utils;
+package com.professionalpractice.medicalbookingbespring.utils;
 
 public enum GenderName {
     MALE,

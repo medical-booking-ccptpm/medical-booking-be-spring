@@ -1,11 +1,15 @@
-package com.professionalpractice.medicalbooking.controllers;
+package com.professionalpractice.medicalbookingbespring.controllers;
 
-import com.professionalpractice.medicalbooking.config.RestApiV1;
-import com.professionalpractice.medicalbooking.dtos.ShiftDTO;
-import com.professionalpractice.medicalbooking.dtos.request.ShiftRequest;
-import com.professionalpractice.medicalbooking.dtos.response.PaginationResponse;
-import com.professionalpractice.medicalbooking.services.ShiftService;
-import com.professionalpractice.medicalbooking.utils.CustomResponse;
+import com.professionalpractice.medicalbookingbespring.config.RestApiV1;
+import com.professionalpractice.medicalbookingbespring.dtos.DepartmentDTO;
+import com.professionalpractice.medicalbookingbespring.dtos.DoctorDTO;
+import com.professionalpractice.medicalbookingbespring.dtos.ShiftDTO;
+import com.professionalpractice.medicalbookingbespring.dtos.request.DepartmentRequest;
+import com.professionalpractice.medicalbookingbespring.dtos.request.ShiftRequest;
+import com.professionalpractice.medicalbookingbespring.dtos.response.PaginationResponse;
+import com.professionalpractice.medicalbookingbespring.entities.Shift;
+import com.professionalpractice.medicalbookingbespring.services.ShiftService;
+import com.professionalpractice.medicalbookingbespring.utils.CustomResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

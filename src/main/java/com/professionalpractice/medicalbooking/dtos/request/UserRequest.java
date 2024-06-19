@@ -1,9 +1,7 @@
-package com.professionalpractice.medicalbooking.dtos.request;
+package com.professionalpractice.medicalbookingbespring.dtos.request;
 
 import java.util.List;
 
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Size;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -30,8 +28,6 @@ public class UserRequest {
 
     String dateOfBirth;
 
-    @NotBlank(message = "Yêu cầu nhập mật khẩu")
-    @Size(min = 7, message = "Mật khẩu cần nhiều hơn 7 kí tự")
     String password;
 
     String avatarUrl;

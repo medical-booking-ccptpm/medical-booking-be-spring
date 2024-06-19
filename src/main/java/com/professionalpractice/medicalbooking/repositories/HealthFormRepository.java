@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbooking.repositories;
+package com.professionalpractice.medicalbookingbespring.repositories;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.professionalpractice.medicalbooking.entities.HealthForm;
+import com.professionalpractice.medicalbookingbespring.entities.HealthForm;
 
 @Repository
 public interface HealthFormRepository extends JpaRepository<HealthForm, Long>, JpaSpecificationExecutor<HealthForm> {

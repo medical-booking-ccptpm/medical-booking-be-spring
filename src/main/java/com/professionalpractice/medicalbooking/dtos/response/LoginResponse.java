@@ -1,6 +1,6 @@
-package com.professionalpractice.medicalbooking.dtos.response;
+package com.professionalpractice.medicalbookingbespring.dtos.response;
 
-import com.professionalpractice.medicalbooking.dtos.UserDto;
+import com.professionalpractice.medicalbookingbespring.dtos.UserDto;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

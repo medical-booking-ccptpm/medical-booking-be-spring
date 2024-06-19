@@ -1,6 +1,6 @@
-package com.professionalpractice.medicalbooking.entities;
+package com.professionalpractice.medicalbookingbespring.entities;
 
-import com.professionalpractice.medicalbooking.entities.common.DateAuditing;
+import com.professionalpractice.medicalbookingbespring.entities.common.DateAuditing;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

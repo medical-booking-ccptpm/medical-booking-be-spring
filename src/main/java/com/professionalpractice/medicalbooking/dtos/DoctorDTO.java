@@ -1,7 +1,9 @@
-package com.professionalpractice.medicalbooking.dtos;
+package com.professionalpractice.medicalbookingbespring.dtos;
 
-import com.professionalpractice.medicalbooking.dtos.common.DateAuditingDto;
+import com.professionalpractice.medicalbookingbespring.dtos.common.DateAuditingDto;
+import com.professionalpractice.medicalbookingbespring.entities.Department;
 
+import com.professionalpractice.medicalbookingbespring.entities.Shift;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,7 +11,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.FieldDefaults;
 
-
+import java.util.List;
+import java.util.Set;
 
 @Getter
 @Setter

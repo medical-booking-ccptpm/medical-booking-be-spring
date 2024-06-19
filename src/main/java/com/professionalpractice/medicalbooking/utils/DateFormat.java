@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbooking.utils;
+package com.professionalpractice.medicalbookingbespring.utils;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

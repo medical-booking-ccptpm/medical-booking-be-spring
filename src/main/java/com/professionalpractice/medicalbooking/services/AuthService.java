@@ -1,7 +1,7 @@
-package com.professionalpractice.medicalbooking.services;
+package com.professionalpractice.medicalbookingbespring.services;
 
-import com.professionalpractice.medicalbooking.dtos.request.LoginRequest;
-import com.professionalpractice.medicalbooking.dtos.response.LoginResponse;
+import com.professionalpractice.medicalbookingbespring.dtos.request.LoginRequest;
+import com.professionalpractice.medicalbookingbespring.dtos.response.LoginResponse;
 
 public interface AuthService {
 

@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbooking.services.impl;
+package com.professionalpractice.medicalbookingbespring.services.impl;
 
 import java.io.IOException;
 import java.util.Map;
@@ -8,8 +8,8 @@ import org.springframework.web.multipart.MultipartFile;
 
 import com.cloudinary.Cloudinary;
 import com.cloudinary.utils.ObjectUtils;
-import com.professionalpractice.medicalbooking.exceptions.InternalServerException;
-import com.professionalpractice.medicalbooking.services.CloudinaryService;
+import com.professionalpractice.medicalbookingbespring.exceptions.InternalServerException;
+import com.professionalpractice.medicalbookingbespring.services.CloudinaryService;
 
 import lombok.RequiredArgsConstructor;
 

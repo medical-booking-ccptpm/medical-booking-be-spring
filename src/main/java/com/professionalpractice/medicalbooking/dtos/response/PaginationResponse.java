@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbooking.dtos.response;
+package com.professionalpractice.medicalbookingbespring.dtos.response;
 
 import java.io.Serializable;
 import java.util.List;

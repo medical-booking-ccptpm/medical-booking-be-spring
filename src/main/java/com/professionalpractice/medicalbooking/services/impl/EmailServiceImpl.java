@@ -1,12 +1,12 @@
-package com.professionalpractice.medicalbooking.services.impl;
+package com.professionalpractice.medicalbookingbespring.services.impl;
 
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 
-import com.professionalpractice.medicalbooking.dtos.HealthFormDTO;
-import com.professionalpractice.medicalbooking.services.EmailService;
-import com.professionalpractice.medicalbooking.utils.DateFormat;
+import com.professionalpractice.medicalbookingbespring.dtos.HealthFormDTO;
+import com.professionalpractice.medicalbookingbespring.services.EmailService;
+import com.professionalpractice.medicalbookingbespring.utils.DateFormat;
 
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;

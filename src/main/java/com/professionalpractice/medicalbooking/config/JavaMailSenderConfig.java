@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbooking.config;
+package com.professionalpractice.medicalbookingbespring.config;
 
 import java.util.Properties;
 
