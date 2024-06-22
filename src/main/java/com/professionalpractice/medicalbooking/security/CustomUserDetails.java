@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbookingbespring.security;
+package com.professionalpractice.medicalbooking.security;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -8,7 +8,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.professionalpractice.medicalbookingbespring.entities.User;
+import com.professionalpractice.medicalbooking.entities.User;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

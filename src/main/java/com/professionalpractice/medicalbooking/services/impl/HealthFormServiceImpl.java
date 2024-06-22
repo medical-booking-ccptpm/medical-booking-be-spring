@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbookingbespring.services.impl;
+package com.professionalpractice.medicalbooking.services.impl;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.UUID;
 
-import com.professionalpractice.medicalbookingbespring.entities.Doctor;
+import com.professionalpractice.medicalbooking.entities.Doctor;
 import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletOutputStream;
 import jakarta.servlet.http.HttpServletResponse;
@@ -27,17 +27,17 @@ import org.springframework.data.jpa.domain.Specification;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
-import com.professionalpractice.medicalbookingbespring.dtos.HealthFormDTO;
-import com.professionalpractice.medicalbookingbespring.dtos.request.HealthFormRequest;
-import com.professionalpractice.medicalbookingbespring.entities.HealthForm;
-import com.professionalpractice.medicalbookingbespring.entities.Shift;
-import com.professionalpractice.medicalbookingbespring.entities.User;
-import com.professionalpractice.medicalbookingbespring.exceptions.BadRequestException;
-import com.professionalpractice.medicalbookingbespring.exceptions.NotFoundException;
-import com.professionalpractice.medicalbookingbespring.repositories.HealthFormRepository;
-import com.professionalpractice.medicalbookingbespring.repositories.ShiftRepository;
-import com.professionalpractice.medicalbookingbespring.repositories.UserRepository;
-import com.professionalpractice.medicalbookingbespring.services.HealthFormService;
+import com.professionalpractice.medicalbooking.dtos.HealthFormDTO;
+import com.professionalpractice.medicalbooking.dtos.request.HealthFormRequest;
+import com.professionalpractice.medicalbooking.entities.HealthForm;
+import com.professionalpractice.medicalbooking.entities.Shift;
+import com.professionalpractice.medicalbooking.entities.User;
+import com.professionalpractice.medicalbooking.exceptions.BadRequestException;
+import com.professionalpractice.medicalbooking.exceptions.NotFoundException;
+import com.professionalpractice.medicalbooking.repositories.HealthFormRepository;
+import com.professionalpractice.medicalbooking.repositories.ShiftRepository;
+import com.professionalpractice.medicalbooking.repositories.UserRepository;
+import com.professionalpractice.medicalbooking.services.HealthFormService;
 
 import jakarta.persistence.criteria.Predicate;
 import lombok.RequiredArgsConstructor;

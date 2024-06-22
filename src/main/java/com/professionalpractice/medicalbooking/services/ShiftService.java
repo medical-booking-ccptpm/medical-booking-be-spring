@@ -1,7 +1,7 @@
-package com.professionalpractice.medicalbookingbespring.services;
+package com.professionalpractice.medicalbooking.services;
 
-import com.professionalpractice.medicalbookingbespring.dtos.ShiftDTO;
-import com.professionalpractice.medicalbookingbespring.dtos.request.ShiftRequest;
+import com.professionalpractice.medicalbooking.dtos.ShiftDTO;
+import com.professionalpractice.medicalbooking.dtos.request.ShiftRequest;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 

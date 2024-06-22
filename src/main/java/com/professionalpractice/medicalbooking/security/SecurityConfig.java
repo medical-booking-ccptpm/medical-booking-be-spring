@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbookingbespring.security;
+package com.professionalpractice.medicalbooking.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

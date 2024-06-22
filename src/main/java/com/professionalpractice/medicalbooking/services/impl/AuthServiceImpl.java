@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbookingbespring.services.impl;
+package com.professionalpractice.medicalbooking.services.impl;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -9,16 +9,16 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.professionalpractice.medicalbookingbespring.dtos.UserDto;
-import com.professionalpractice.medicalbookingbespring.dtos.request.LoginRequest;
-import com.professionalpractice.medicalbookingbespring.dtos.response.LoginResponse;
-import com.professionalpractice.medicalbookingbespring.entities.User;
-import com.professionalpractice.medicalbookingbespring.exceptions.BadRequestException;
-import com.professionalpractice.medicalbookingbespring.exceptions.UnauthorizedException;
-import com.professionalpractice.medicalbookingbespring.repositories.UserRepository;
-import com.professionalpractice.medicalbookingbespring.security.CustomUserDetails;
-import com.professionalpractice.medicalbookingbespring.security.JwtTokenUtil;
-import com.professionalpractice.medicalbookingbespring.services.AuthService;
+import com.professionalpractice.medicalbooking.dtos.UserDto;
+import com.professionalpractice.medicalbooking.dtos.request.LoginRequest;
+import com.professionalpractice.medicalbooking.dtos.response.LoginResponse;
+import com.professionalpractice.medicalbooking.entities.User;
+import com.professionalpractice.medicalbooking.exceptions.BadRequestException;
+import com.professionalpractice.medicalbooking.exceptions.UnauthorizedException;
+import com.professionalpractice.medicalbooking.repositories.UserRepository;
+import com.professionalpractice.medicalbooking.security.CustomUserDetails;
+import com.professionalpractice.medicalbooking.security.JwtTokenUtil;
+import com.professionalpractice.medicalbooking.services.AuthService;
 
 import lombok.RequiredArgsConstructor;
 

@@ -1,8 +1,8 @@
-package com.professionalpractice.medicalbookingbespring.entities;
+package com.professionalpractice.medicalbooking.entities;
 
 import java.io.Serializable;
 
-import com.professionalpractice.medicalbookingbespring.utils.RoleName;
+import com.professionalpractice.medicalbooking.utils.RoleName;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbookingbespring.services.impl;
+package com.professionalpractice.medicalbooking.services.impl;
 
 import java.time.LocalDate;
 
@@ -7,15 +7,15 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
-import com.professionalpractice.medicalbookingbespring.dtos.ShiftDTO;
-import com.professionalpractice.medicalbookingbespring.dtos.request.ShiftRequest;
-import com.professionalpractice.medicalbookingbespring.entities.Doctor;
-import com.professionalpractice.medicalbookingbespring.entities.Shift;
-import com.professionalpractice.medicalbookingbespring.exceptions.NotFoundException;
-import com.professionalpractice.medicalbookingbespring.repositories.DoctorRepository;
-import com.professionalpractice.medicalbookingbespring.repositories.HealthFormRepository;
-import com.professionalpractice.medicalbookingbespring.repositories.ShiftRepository;
-import com.professionalpractice.medicalbookingbespring.services.ShiftService;
+import com.professionalpractice.medicalbooking.dtos.ShiftDTO;
+import com.professionalpractice.medicalbooking.dtos.request.ShiftRequest;
+import com.professionalpractice.medicalbooking.entities.Doctor;
+import com.professionalpractice.medicalbooking.entities.Shift;
+import com.professionalpractice.medicalbooking.exceptions.NotFoundException;
+import com.professionalpractice.medicalbooking.repositories.DoctorRepository;
+import com.professionalpractice.medicalbooking.repositories.HealthFormRepository;
+import com.professionalpractice.medicalbooking.repositories.ShiftRepository;
+import com.professionalpractice.medicalbooking.services.ShiftService;
 
 import lombok.RequiredArgsConstructor;
 

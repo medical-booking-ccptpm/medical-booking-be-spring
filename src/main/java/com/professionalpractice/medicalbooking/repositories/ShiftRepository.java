@@ -1,7 +1,7 @@
-package com.professionalpractice.medicalbookingbespring.repositories;
+package com.professionalpractice.medicalbooking.repositories;
 
-import com.professionalpractice.medicalbookingbespring.entities.Department;
-import com.professionalpractice.medicalbookingbespring.entities.Shift;
+import com.professionalpractice.medicalbooking.entities.Department;
+import com.professionalpractice.medicalbooking.entities.Shift;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

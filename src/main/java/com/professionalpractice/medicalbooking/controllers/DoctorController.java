@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbookingbespring.controllers;
+package com.professionalpractice.medicalbooking.controllers;
 
 import java.util.List;
 
@@ -10,14 +10,14 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.professionalpractice.medicalbookingbespring.config.RestApiV1;
-import com.professionalpractice.medicalbookingbespring.dtos.DoctorDTO;
-import com.professionalpractice.medicalbookingbespring.dtos.request.DoctorRequest;
-import com.professionalpractice.medicalbookingbespring.dtos.response.PaginationResponse;
-import com.professionalpractice.medicalbookingbespring.entities.common.DateAuditing;
-import com.professionalpractice.medicalbookingbespring.services.CloudinaryService;
-import com.professionalpractice.medicalbookingbespring.services.DoctorService;
-import com.professionalpractice.medicalbookingbespring.utils.CustomResponse;
+import com.professionalpractice.medicalbooking.config.RestApiV1;
+import com.professionalpractice.medicalbooking.dtos.DoctorDTO;
+import com.professionalpractice.medicalbooking.dtos.request.DoctorRequest;
+import com.professionalpractice.medicalbooking.dtos.response.PaginationResponse;
+import com.professionalpractice.medicalbooking.entities.common.DateAuditing;
+import com.professionalpractice.medicalbooking.services.CloudinaryService;
+import com.professionalpractice.medicalbooking.services.DoctorService;
+import com.professionalpractice.medicalbooking.utils.CustomResponse;
 
 import lombok.RequiredArgsConstructor;
 

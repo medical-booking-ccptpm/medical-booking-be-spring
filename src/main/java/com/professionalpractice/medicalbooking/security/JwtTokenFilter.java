@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbookingbespring.security;
+package com.professionalpractice.medicalbooking.security;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -18,6 +18,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
+
 
 @Component
 @RequiredArgsConstructor

@@ -1,11 +1,11 @@
-package com.professionalpractice.medicalbookingbespring.services;
+package com.professionalpractice.medicalbooking.services;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
-import com.professionalpractice.medicalbookingbespring.dtos.UserDto;
-import com.professionalpractice.medicalbookingbespring.dtos.request.UserRequest;
+import com.professionalpractice.medicalbooking.dtos.UserDto;
+import com.professionalpractice.medicalbooking.dtos.request.UserRequest;
 
 @Service
 public interface UserService {

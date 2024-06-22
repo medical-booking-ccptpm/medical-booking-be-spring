@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbookingbespring.controllers;
+package com.professionalpractice.medicalbooking.controllers;
 
 import java.util.List;
 
@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.professionalpractice.medicalbookingbespring.config.RestApiV1;
-import com.professionalpractice.medicalbookingbespring.dtos.UserDto;
-import com.professionalpractice.medicalbookingbespring.dtos.request.LoginRequest;
-import com.professionalpractice.medicalbookingbespring.dtos.request.UserRequest;
-import com.professionalpractice.medicalbookingbespring.dtos.response.LoginResponse;
-import com.professionalpractice.medicalbookingbespring.services.AuthService;
-import com.professionalpractice.medicalbookingbespring.services.UserService;
-import com.professionalpractice.medicalbookingbespring.utils.CustomResponse;
+import com.professionalpractice.medicalbooking.config.RestApiV1;
+import com.professionalpractice.medicalbooking.dtos.UserDto;
+import com.professionalpractice.medicalbooking.dtos.request.LoginRequest;
+import com.professionalpractice.medicalbooking.dtos.request.UserRequest;
+import com.professionalpractice.medicalbooking.dtos.response.LoginResponse;
+import com.professionalpractice.medicalbooking.services.AuthService;
+import com.professionalpractice.medicalbooking.services.UserService;
+import com.professionalpractice.medicalbooking.utils.CustomResponse;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

@@ -1,12 +1,12 @@
-package com.professionalpractice.medicalbookingbespring.dtos;
+package com.professionalpractice.medicalbooking.dtos;
 
 import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.professionalpractice.medicalbookingbespring.dtos.common.DateAuditingDto;
-import com.professionalpractice.medicalbookingbespring.entities.Role;
-import com.professionalpractice.medicalbookingbespring.utils.GenderName;
+import com.professionalpractice.medicalbooking.dtos.common.DateAuditingDto;
+import com.professionalpractice.medicalbooking.entities.Role;
+import com.professionalpractice.medicalbooking.utils.GenderName;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

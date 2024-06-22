@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbookingbespring.entities.common;
+package com.professionalpractice.medicalbooking.entities.common;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.MappedSuperclass;

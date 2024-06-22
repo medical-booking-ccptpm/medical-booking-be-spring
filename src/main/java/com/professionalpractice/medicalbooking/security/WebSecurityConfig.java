@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbookingbespring.security;
+package com.professionalpractice.medicalbooking.security;
 
 import static org.springframework.http.HttpMethod.GET;
 import static org.springframework.http.HttpMethod.POST;

@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbookingbespring.dtos.common;
+package com.professionalpractice.medicalbooking.dtos.common;
 
 import lombok.*;
 

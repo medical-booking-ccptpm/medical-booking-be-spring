@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbookingbespring.utils;
+package com.professionalpractice.medicalbooking.utils;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;

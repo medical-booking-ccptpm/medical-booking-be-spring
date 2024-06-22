@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbookingbespring.exceptions;
+package com.professionalpractice.medicalbooking.exceptions;
 
 import lombok.Getter;
 import lombok.Setter;

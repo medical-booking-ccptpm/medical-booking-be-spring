@@ -1,16 +1,16 @@
-package com.professionalpractice.medicalbookingbespring.services.impl;
+package com.professionalpractice.medicalbooking.services.impl;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
-import com.professionalpractice.medicalbookingbespring.dtos.DepartmentDTO;
-import com.professionalpractice.medicalbookingbespring.dtos.request.DepartmentRequest;
-import com.professionalpractice.medicalbookingbespring.entities.Department;
-import com.professionalpractice.medicalbookingbespring.exceptions.NotFoundException;
-import com.professionalpractice.medicalbookingbespring.repositories.DepartmentRepository;
-import com.professionalpractice.medicalbookingbespring.services.DepartmentService;
+import com.professionalpractice.medicalbooking.dtos.DepartmentDTO;
+import com.professionalpractice.medicalbooking.dtos.request.DepartmentRequest;
+import com.professionalpractice.medicalbooking.entities.Department;
+import com.professionalpractice.medicalbooking.exceptions.NotFoundException;
+import com.professionalpractice.medicalbooking.repositories.DepartmentRepository;
+import com.professionalpractice.medicalbooking.services.DepartmentService;
 
 import lombok.RequiredArgsConstructor;
 

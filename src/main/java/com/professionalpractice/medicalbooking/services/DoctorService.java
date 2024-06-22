@@ -1,8 +1,8 @@
-package com.professionalpractice.medicalbookingbespring.services;
+package com.professionalpractice.medicalbooking.services;
 
-import com.professionalpractice.medicalbookingbespring.dtos.DoctorDTO;
-import com.professionalpractice.medicalbookingbespring.dtos.request.DoctorRequest;
-import com.professionalpractice.medicalbookingbespring.entities.Doctor;
+import com.professionalpractice.medicalbooking.dtos.DoctorDTO;
+import com.professionalpractice.medicalbooking.dtos.request.DoctorRequest;
+import com.professionalpractice.medicalbooking.entities.Doctor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 

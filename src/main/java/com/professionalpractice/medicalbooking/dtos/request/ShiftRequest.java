@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbookingbespring.dtos.request;
+package com.professionalpractice.medicalbooking.dtos.request;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.GeneratedValue;

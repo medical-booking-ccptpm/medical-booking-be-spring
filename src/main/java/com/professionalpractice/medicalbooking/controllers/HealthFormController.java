@@ -1,9 +1,9 @@
-package com.professionalpractice.medicalbookingbespring.controllers;
+package com.professionalpractice.medicalbooking.controllers;
 
 import java.io.IOException;
 import java.util.List;
 
-import com.professionalpractice.medicalbookingbespring.utils.RestData;
+import com.professionalpractice.medicalbooking.utils.RestData;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -22,14 +22,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.professionalpractice.medicalbookingbespring.config.RestApiV1;
-import com.professionalpractice.medicalbookingbespring.dtos.HealthFormDTO;
-import com.professionalpractice.medicalbookingbespring.dtos.request.HealthFormRequest;
-import com.professionalpractice.medicalbookingbespring.dtos.response.PaginationResponse;
-import com.professionalpractice.medicalbookingbespring.services.CloudinaryService;
-import com.professionalpractice.medicalbookingbespring.services.EmailService;
-import com.professionalpractice.medicalbookingbespring.services.HealthFormService;
-import com.professionalpractice.medicalbookingbespring.utils.CustomResponse;
+import com.professionalpractice.medicalbooking.config.RestApiV1;
+import com.professionalpractice.medicalbooking.dtos.HealthFormDTO;
+import com.professionalpractice.medicalbooking.dtos.request.HealthFormRequest;
+import com.professionalpractice.medicalbooking.dtos.response.PaginationResponse;
+import com.professionalpractice.medicalbooking.services.CloudinaryService;
+import com.professionalpractice.medicalbooking.services.EmailService;
+import com.professionalpractice.medicalbooking.services.HealthFormService;
+import com.professionalpractice.medicalbooking.utils.CustomResponse;
 
 import lombok.RequiredArgsConstructor;
 

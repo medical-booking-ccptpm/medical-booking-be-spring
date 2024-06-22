@@ -1,4 +1,4 @@
-package com.professionalpractice.medicalbookingbespring.config;
+package com.professionalpractice.medicalbooking.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

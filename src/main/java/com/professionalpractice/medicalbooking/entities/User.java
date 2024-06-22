@@ -1,10 +1,10 @@
-package com.professionalpractice.medicalbookingbespring.entities;
+package com.professionalpractice.medicalbooking.entities;
 
 import java.time.LocalDate;
 import java.util.Set;
 
-import com.professionalpractice.medicalbookingbespring.entities.common.DateAuditing;
-import com.professionalpractice.medicalbookingbespring.utils.GenderName;
+import com.professionalpractice.medicalbooking.entities.common.DateAuditing;
+import com.professionalpractice.medicalbooking.utils.GenderName;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
